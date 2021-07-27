@@ -1,0 +1,27 @@
+h1{
+    font-size: 25px;
+}
+.btn-success:hover{
+    background-color: rgb(142, 90, 226);
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px rgb(255, 238, 3);}
+}
+body{
+    background-size: cover;
+}
+.play_button{
+    font-size: 15px;
+}
+.shot{
+    font-size: 15px;
+}
+.tittle{
+    font-size: 25px;
+}
